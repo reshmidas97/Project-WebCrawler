@@ -1,0 +1,154 @@
+!SESSION 2024-04-07 06:19:27.806 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-07 06:19:31.852
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:19:32.241
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:19:57.200
+!MESSAGE Logback config file: /Users/reshmidas/eclipse-workspace/MavenProject/WebCrawler/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-04-07 06:20:37.926
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.926
+!MESSAGE Software being installed: artificial_root 1.0.0.v1712451035616
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE Mylyn WikiText Help UI 3.0.46.202301111837 (org.eclipse.mylyn.wikitext.help.ui 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE Mylyn WikiText Help UI 4.2.0.v20240130-0811 (org.eclipse.mylyn.wikitext.help.ui 4.2.0.v20240130-0811)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE From: artificial_root 1.0.0.v1712451035616
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.2.0.v20240302-0923
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE From: artificial_root 1.0.0.v1712451035616
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE From: Mylyn WikiText Editors 3.0.46.202301111837 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.46.202301111837,3.0.46.202301111837]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE From: Mylyn WikiText 4.2.0.v20240302-0923 (org.eclipse.mylyn.wikitext.feature.feature.group 4.2.0.v20240302-0923)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.2.0.v20240130-0811,4.2.0.v20240130-0811]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:20:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE From: Mylyn WikiText 3.0.46.202301111837 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:20:37.927
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.46.202301111837,3.0.46.202301111837]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-04-07 06:20:37.933
+!MESSAGE Setup tasks were performed during startup. See '/Users/reshmidas/eclipse/java-2023-03/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2024-04-07 06:20:57.989 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-07 06:21:02.113
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:21:02.530
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:21:13.484
+!MESSAGE Logback config file: /Users/reshmidas/eclipse-workspace/MavenProject/WebCrawler/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-04-07 06:21:43.462
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE Software being installed: artificial_root 1.0.0.v1712451101429
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE Mylyn WikiText Help UI 3.0.46.202301111837 (org.eclipse.mylyn.wikitext.help.ui 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE Mylyn WikiText Help UI 4.2.0.v20240130-0811 (org.eclipse.mylyn.wikitext.help.ui 4.2.0.v20240130-0811)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE From: artificial_root 1.0.0.v1712451101429
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.2.0.v20240302-0923
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE From: artificial_root 1.0.0.v1712451101429
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE From: Mylyn WikiText Editors 3.0.46.202301111837 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.46.202301111837,3.0.46.202301111837]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE From: Mylyn WikiText 4.2.0.v20240302-0923 (org.eclipse.mylyn.wikitext.feature.feature.group 4.2.0.v20240302-0923)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.2.0.v20240130-0811,4.2.0.v20240130-0811]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-04-07 06:21:43.463
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE From: Mylyn WikiText 3.0.46.202301111837 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.46.202301111837)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-04-07 06:21:43.463
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.46.202301111837,3.0.46.202301111837]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-04-07 06:21:43.470
+!MESSAGE Setup tasks were performed during startup. See '/Users/reshmidas/eclipse/java-2023-03/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2024-04-07 06:27:01.716 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/reshmidas/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-07 06:27:05.904
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:27:06.353
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-07 06:27:26.296
+!MESSAGE Logback config file: /Users/reshmidas/eclipse-workspace/MavenProject/WebCrawler/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.oomph.ui 4 0 2024-04-07 06:27:38.292
+!MESSAGE java.lang.ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.p2.internal.core.AgentImpl.initializeProvisioningAgent(AgentImpl.java:604)
+	at org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:228)
+	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:114)
+	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:158)
+	at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:121)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:218)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)
+	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
+	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getProperty(String)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.Activator.getContext()" is null
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.<clinit>(CachingRepositoryManager.java:571)
+	... 10 more
